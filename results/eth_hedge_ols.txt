@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ETH   R-squared:                       0.101
+Model:                            OLS   Adj. R-squared:                  0.101
+Method:                 Least Squares   F-statistic:                     223.3
+Date:                Fri, 06 Nov 2026   Prob (F-statistic):           6.47e-48
+Time:                        00:29:43   Log-Likelihood:                 3161.7
+No. Observations:                1980   AIC:                            -6319.
+Df Residuals:                    1978   BIC:                            -6308.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0001      0.001     -0.115      0.908      -0.002       0.002
+SPX            1.3328      0.089     14.943      0.000       1.158       1.508
+==============================================================================
+Omnibus:                      219.991   Durbin-Watson:                   2.012
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1948.058
+Skew:                          -0.027   Prob(JB):                         0.00
+Kurtosis:                       7.859   Cond. No.                         80.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

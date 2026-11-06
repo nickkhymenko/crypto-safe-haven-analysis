@@ -1,0 +1,26 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    BTC   R-squared:                       0.059
+Model:                            OLS   Adj. R-squared:                  0.058
+Method:                 Least Squares   F-statistic:                     86.28
+Date:                Fri, 06 Nov 2026   Prob (F-statistic):           4.50e-37
+Time:                        00:29:43   Log-Likelihood:                 5001.8
+No. Observations:                2765   AIC:                            -9998.
+Df Residuals:                    2762   BIC:                            -9980.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.0024      0.001      3.028      0.002       0.001       0.004
+SPX              0.6704      0.087      7.702      0.000       0.500       0.841
+SPX_x_stress     0.4574      0.143      3.204      0.001       0.177       0.737
+==============================================================================
+Omnibus:                      298.772   Durbin-Watson:                   2.003
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2542.859
+Skew:                          -0.082   Prob(JB):                         0.00
+Kurtosis:                       7.695   Cond. No.                         206.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
