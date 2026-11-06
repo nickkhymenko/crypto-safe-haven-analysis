@@ -35,13 +35,22 @@ On Windows use `.venv\Scripts\activate` instead.
 
 Outputs appear in `results/` and `figures/`. Explore `notebooks/analysis.ipynb` in VS Code or JupyterLab.
 
+
 ## Project layout
+
 ```text
-data/raw/               Original Bloomberg-exported spreadsheets (local only)
-src/analysis.py          Reproducible processing, regressions and plots
-notebooks/analysis.ipynb Guided notebook
-figures/                 Generated charts
-results/                 CSV tables and OLS summaries
+crypto-safe-haven-analysis/
+├── data/
+│   └── raw/
+├── src/
+│   └── analysis.py
+├── notebooks/
+│   └── analysis.ipynb
+├── figures/
+├── results/
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ## Data availability and licensing
